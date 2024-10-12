@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Headr</title>
+    <!-- tailwind css and daisy UI  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .search-container input::placeholder {
+            font-weight: 500;
+            font-size: 20px;
+            color: rgb(46, 44, 44);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!-- nav ber section  -->
+        <div class="h-7 bg-black">
+
+        </div>
+        <section class="bg-[#eeeded]">
+            <nav class="max-w-[1150px] mx-auto">
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow uppercase font-bold text-base">
+                                <li><a>Man</a></li>
+                                <li><a>Woman</a></li>
+                                <li><a>Kids</a></li>
+                                <li><a>ACCESSORIES</a></li>
+                                <li><a>GIFT VOUCHER</a></li>
+                            </ul>
+                        </div>
+                        <a class="">
+                            <img class="max-h-16 " src="image/bay_logo-27C6p-D7.png" alt="">
+                        </a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex lg:mr-20">
+                        <ul class="menu menu-horizontal px-1 uppercase font-bold text-base space-x-3">
+                            <li><a>Man</a></li>
+                            <li><a>Woman</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>ACCESSORIES</a></li>
+                            <li><a>GIFT VOUCHER</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="flex justify-center items-center space-x-4">
+                            <div class="flex search-container">
+                                <img class="-mr-8 z-20" src="image/download.svg" alt="">
+                                <input type="text" placeholder="       Search"
+                                    class="input z-10 input-bordered border-none rounded-3xl w-24 md:w-auto pl-8 bg-[#eeeded]" />
+                            </div>
+                            <!-- Icons  -->
+                            <div class="flex space-x-5 pl-10">
+                                <a href="#"><i class="fa-regular fa-user"></i></a>
+                                <a href="#"><i class="fa-solid fa-lock"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- Carousel section  -->
+        <section>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="image/Banner-01.png"
+                        class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="image/Banner-02.png"
+                        class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="image/Banner-03.png"
+                        class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="image/Banner-04.png"
+                        class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- SHOES COLLECTION Section   -->
+         <section class="my-16">
+            <div>
+                <h2 class="text-3xl text-center font-bold">SHOES TO OUR COLLECTION</h2>
+                <div class="flex justify-center items-start uppercase">
+                    <a href="#">Man's</a>
+                    <a href="#">Womam's</a>
+                    <a href="#">CHILDREN'</a>
+                    <hr>
+                </div>
+            </div>
+         </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
